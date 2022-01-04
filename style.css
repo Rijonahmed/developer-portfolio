@@ -45,16 +45,34 @@ h2{
 
 }
 .experience-item{
-  box-shadow: 10px 10px 40px red;
+  box-shadow: 10px 10px 40px rgb(128, 108, 108);
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
   padding-left: 20px;
+  
 }
 .experience{
   background-image: url(pic/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
 }
+#web-dev-experience{
+  border-left: 7px solid;
+  border-image: linear-gradient(red,blue);
+  border-image-slice: 1;
+}
+#baby-web{
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(0, 217, 255),rgb(187, 255, 0));
+  border-image-slice: 1;
+}
+footer{
+  text-align: center;
+  font-weight: 700;
+}
+
+
+
 
 
